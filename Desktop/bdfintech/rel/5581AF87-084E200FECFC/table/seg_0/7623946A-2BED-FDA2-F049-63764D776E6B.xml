@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7623946A-2BED-FDA2-F049-63764D776E6B" name="t_fitch_cidade">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>B67DDE00-E463-E900-2484-A502E4CFB01B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_cidade" id="3EA501EF-644D-87FE-7D48-F384E8861D41">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>A346DF1A-FC08-A792-711D-4DB31055D551</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>32929B1C-6424-33D2-587B-63E7D114A5F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_estado" id="6A0A088D-1FD9-7B1B-BE62-340FF3496FA4">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>F0167DB6-71F6-94EE-CA45-0A041D8FAC6F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>51BD5B7C-B12C-B331-EE68-BB3CB64632F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="A30EC13D-9D9C-2056-5CF4-3D1703BB7C10">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>E1F3F547-02F6-9A5D-924A-06104AC906EC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>C7C90A30-DF8F-3EBA-27FA-AB925FC6BE95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_fitch_bairro_cod_bairro" id="38868AC0-F72C-B262-775B-5B95AC74E611">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>0B7342AF-5807-AE6C-1806-F177B2B2265D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2DD22E44-26CD-FC31-969C-E071638CF3A8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46202DDF-9B07-92CA-0197-41A0CDDA9600" referredColumn="57C7784A-97E0-7BDA-1CF7-EF3E3CB91243"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A383A4E5-7570-C739-E9C9-C68378EDED4D" name="t_fitch_cidade_pk">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>8016B259-AAA3-59D6-0E1F-06CD3B61177E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA501EF-644D-87FE-7D48-F384E8861D41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3C6489F-1A25-84F9-8893-155856242250" name="t_fitch_cidade_t_fitch_bairro_fk">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38868AC0-F72C-B262-775B-5B95AC74E611"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

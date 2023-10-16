@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="5581AF87-32C6-C079-6931-084E200FECFC" mainViewID="2B03ECD0-7760-2816-19D8-11F5A09566F6">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:00:45 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>SCRIPT DDL FINTECH.ddl</fileName>
+<pathName>C:\Users\João Felipe\Desktop\FINTECH - Modelos e Script</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

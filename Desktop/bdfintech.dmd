@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bdfintech" id="991E9F8A-E3C1-E64E-A6E6-E43743FF23E8" version="3.5">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:00:45 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>991E9F8A-E3C1-E64E-A6E6-E43743FF23E8</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7557AC74-1B55-7859-318C-F9B97DC93CCE">
+<designStoragePath>J:\FINTECH - Modelos e Script</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

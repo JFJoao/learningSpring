@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90B45E7A-E957-2BEE-97DD-BCD0EB2CC683" name="t_fitch_financeiro">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>4978252C-FAAA-41E9-1A22-E1FC905BCC66</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_financeiro" id="F91E510E-D492-D131-295F-251A9F2610F0">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>37063C29-A7E2-39A1-E719-EEF229B56CD6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BAEC8EE7-B784-6CF7-D6DA-527C1304A121</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_investimento" id="E9092D77-C95D-6182-F19F-BA8F799F471C">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>78DE4AA5-E1C8-16A1-DF65-77F2E6E26AFA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<domain>B79125A6-F8DF-6C3C-BF14-346E21DCF631</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_categoria" id="7DA9213C-7C13-9444-7775-725751F2498B">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>FF6BD372-0C0A-F9E1-8671-AACCE4D54DC3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BED9B08C-910C-52EB-FA88-B48E923FD762</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_categoria" id="87378B3D-2EF6-1CD0-592B-6536114D0521">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>2D5BFAAD-2D95-2ECE-0C6A-98FAC459A296</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BED9B08C-910C-52EB-FA88-B48E923FD762</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_ftch_cliente_cod_cliente" id="6043A2CD-8321-586B-A750-D1B683A2377E">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>4F012C6A-CDBE-4838-86A0-56236C8FA87A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8676C0F2-254C-479A-C907-8E79F491B587</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF9C411A-8DBF-994F-3C55-3832462BD737" referredColumn="274CABE4-1514-E3CC-55C6-CF9057A36184"/>
+</associations>
+</Column>
+<Column name="t_fitch_transações_cod_transação" id="D7764D41-C4F6-EA1E-1697-414F3A18B86C">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>A66A926D-6880-92CB-2A5D-5DA0DE9A137E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>51BD5B7C-B12C-B331-EE68-BB3CB64632F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E56A52DD-37E0-57DB-61A7-76E1E2097205" referredColumn="7C482709-354B-ED14-F3D1-F295C5D605B4"/>
+</associations>
+</Column>
+<Column name="t_fitch_transações_cod_cliente" id="4EBB7500-AA99-02E5-997F-D727981BB347">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>B70CBEB5-BF33-FB34-B499-38CFC7C93587</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8676C0F2-254C-479A-C907-8E79F491B587</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E56A52DD-37E0-57DB-61A7-76E1E2097205" referredColumn="C9CE9583-4233-A464-0733-8AA1333A14B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="559546EF-BF3B-8065-279B-8100AAF248D7" name="t_fitch_financeiro_pk">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>5EE1955C-0A85-7E22-8EC3-DEB5104219B5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F91E510E-D492-D131-295F-251A9F2610F0"/>
+<colUsage columnID="E9092D77-C95D-6182-F19F-BA8F799F471C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C476749D-72FD-BF7E-3980-0F55B6B09BC0" name="t_fitch_financeiro__idx">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>D0B2DE93-7C62-4291-75F2-27399675940C</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6043A2CD-8321-586B-A750-D1B683A2377E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA4C3286-CA5F-C49B-C4BB-494CE5F257E7" name="t_fitch_financeiro__idxv1">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>5F5FE14C-576C-02D8-5FDD-0A3922FD8AD9</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7764D41-C4F6-EA1E-1697-414F3A18B86C"/>
+<colUsage columnID="4EBB7500-AA99-02E5-997F-D727981BB347"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45B65BF7-7B33-800A-9AF5-6EFE6E9DCA56" name="t_fitch_financeiro_t_fitch_transações_fk">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7764D41-C4F6-EA1E-1697-414F3A18B86C"/>
+<colUsage columnID="4EBB7500-AA99-02E5-997F-D727981BB347"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13E2860A-7A7A-5031-D2AB-50E4420FCCA5" name="t_fitch_financeiro_t_ftch_cliente_fk">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6043A2CD-8321-586B-A750-D1B683A2377E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF9C411A-8DBF-994F-3C55-3832462BD737" containerWithKeyObject="90B45E7A-E957-2BEE-97DD-BCD0EB2CC683" localFKIndex="13E2860A-7A7A-5031-D2AB-50E4420FCCA5" name="t_fitch_financeiro_t_ftch_cliente_fk">
+<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<importedID>0DE80DA7-E00B-1F4C-B8BF-F15B0508BC38</importedID>
+<referredTableLongName>t_ftch_cliente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>44DF02F6-0C10-BF61-C630-6D01F105781F</referredTableID>
+<keyObject>16D4D3BB-BDFB-AA9A-8AE2-C9F628F030CC</keyObject>
+<referredKeyID>16D4D3BB-BDFB-AA9A-8AE2-C9F628F030CC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

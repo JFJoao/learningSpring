@@ -56,7 +56,7 @@ public class ContatoService {
     }
 
     public Contato buscarPeloNome(String nome){
-        Optional<Contato> contatoOptional = contatoRepository.findbyNome(nome);
+        Optional<Contato> contatoOptional = contatoRepository.findByNome(nome);
         if (contatoOptional.isPresent()){
             return contatoOptional.get();
         } else {

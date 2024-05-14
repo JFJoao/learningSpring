@@ -5,17 +5,17 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 @Entity
-@Table(name = "tbl_contato")
+@Table(name = "tbl_contato2")
 public class Contato {
 
     @Id
     @GeneratedValue(
             strategy = GenerationType.SEQUENCE,
-            generator = "CONTATO_SEQ"
+            generator = "CONTATO2_SEQ"
     )
     @SequenceGenerator(
-            name = "CONTATO_SEQ",
-            sequenceName = "CONTATO_SEQ",
+            name = "CONTATO2_SEQ",
+            sequenceName = "CONTATO2_SEQ",
             allocationSize = 50
     )
     private Long id;

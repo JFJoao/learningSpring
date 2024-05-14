@@ -8,7 +8,7 @@ import java.util.Optional;
 
 public interface ContatoRepository extends JpaRepository <Contato, Long> {
 
-    public Optional<Contato> findbyNome(String nome);
+    public Optional<Contato> findByNome(String nome);
 
     public List<Contato> findByDataNascimentoBetween(LocalDate dataInicial, LocalDate dataFinal);
 

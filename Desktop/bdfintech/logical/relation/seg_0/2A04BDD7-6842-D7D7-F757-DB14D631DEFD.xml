@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_fitch_cidade_t_fitch_bairro_fk" directorySegmentName="seg_0" id="2A04BDD7-6842-D7D7-F757-DB14D631DEFD">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 19:51:10 UTC</createdTime>
+<generatorID>46202DDF-9B07-92CA-0197-41A0CDDA9600</generatorID>
+<ownerDesignName>bdfintech</ownerDesignName>
+<engineerTo>
+<item key="5581AF87-32C6-C079-6931-084E200FECFC" value="true"/>
+</engineerTo>
+<sourcePk>7FE780E2-58C3-6714-96EF-9DD7278FCD44</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4195F345-D28B-91FF-0B74-22398504AA33</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16A2C82B-7F9B-9FA3-B60F-F163B8DF150B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

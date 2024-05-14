@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAAB4B79-D679-5137-7B96-8DACB5E1384B" name="ESTADO">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>D46CAA69-452D-9C24-D54C-A18B9685B080</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_estado" id="4EAD5C4D-F50A-F138-485B-EDFD27DCA17E">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>61B59826-4C93-7D4A-085A-56208B5B5EA2</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_estado" id="E6013DDA-F1B9-FDA6-F1B6-FE6D28891EEC">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>8864B8BC-D5A2-D016-A775-8AD5304B3F54</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sgl_estado" id="3DE3799C-1A1C-DDA8-5A41-3B7DD6E84B07">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>2FB2830B-6C72-64E8-426D-8FA05EE58532</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F4DE07F-88AC-765A-96B1-0AD662D86CA8" name="ESTADO_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>15C8B858-E704-02B1-26DF-7A84DC361DCE</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EAD5C4D-F50A-F138-485B-EDFD27DCA17E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

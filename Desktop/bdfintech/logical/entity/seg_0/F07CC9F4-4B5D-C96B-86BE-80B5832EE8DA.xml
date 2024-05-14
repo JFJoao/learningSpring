@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F07CC9F4-4B5D-C96B-86BE-80B5832EE8DA" name="t fitch cliente pf">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 19:51:10 UTC</createdTime>
+<generatorID>D7456BDF-2062-CA46-2D77-3AD16F22CC75</generatorID>
+<ownerDesignName>bdfintech</ownerDesignName>
+<engineerTo>
+<item key="5581AF87-32C6-C079-6931-084E200FECFC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod cliente" id="34B7E849-6944-CBE0-9C43-AFE65720DC2D">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 19:51:10 UTC</createdTime>
+<generatorID>D67B26EC-20F8-1342-4608-9D226DCBCAD6</generatorID>
+<ownerDesignName>bdfintech</ownerDesignName>
+<engineerTo>
+<item key="5581AF87-32C6-C079-6931-084E200FECFC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8676C0F2-254C-479A-C907-8E79F491B587</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num cpf" id="77E42554-BA18-BCB5-274C-60B186481835">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 19:51:10 UTC</createdTime>
+<generatorID>F520E077-E0FD-C200-3E1D-C299397E1BBE</generatorID>
+<ownerDesignName>bdfintech</ownerDesignName>
+<engineerTo>
+<item key="5581AF87-32C6-C079-6931-084E200FECFC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2DD22E44-26CD-FC31-969C-E071638CF3A8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt nascimento" id="5D5E32D9-7F87-E24E-9AA8-F1CA10BC0E9A">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 19:51:10 UTC</createdTime>
+<generatorID>E2BBF9CB-4FF4-F49B-35A5-D54614246DCD</generatorID>
+<ownerDesignName>bdfintech</ownerDesignName>
+<engineerTo>
+<item key="5581AF87-32C6-C079-6931-084E200FECFC" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>6864B5A2-689D-596D-74D3-36C9844A8032</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod genero" id="E26E5163-FFF1-6B90-5AB3-B61E60CED241">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 19:51:10 UTC</createdTime>
+<generatorID>0C7BDE16-92AA-8826-AC84-872E76ABAC70</generatorID>
+<ownerDesignName>bdfintech</ownerDesignName>
+<engineerTo>
+<item key="5581AF87-32C6-C079-6931-084E200FECFC" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>6864B5A2-689D-596D-74D3-36C9844A8032</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num rg" id="E7A6FDC6-7768-C858-F2A5-41CB8E852DC8">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 19:51:10 UTC</createdTime>
+<generatorID>80E202D1-A130-B162-2A11-F83AD310E4C1</generatorID>
+<ownerDesignName>bdfintech</ownerDesignName>
+<engineerTo>
+<item key="5581AF87-32C6-C079-6931-084E200FECFC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A7C4906F-222C-3F6B-701E-50D0E12F3722</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="t ftch cliente cod cliente" id="1E9021A6-9484-DDAD-802F-2D3640A6B448">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 19:51:10 UTC</createdTime>
+<generatorID>B042AE67-04AD-44C0-D6B5-4A1537D84665</generatorID>
+<ownerDesignName>bdfintech</ownerDesignName>
+<engineerTo>
+<item key="5581AF87-32C6-C079-6931-084E200FECFC" value="true"/>
+</engineerTo>
+<referedAttribute>623C0C96-4147-CEC9-5E1F-7D93748B27CC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8676C0F2-254C-479A-C907-8E79F491B587</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78CE3FBD-010D-E6B0-C87A-DE5771106A98" name="t fitch cliente pf pk">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 19:51:10 UTC</createdTime>
+<generatorID>2559AC6B-6B72-7DD4-5B44-3F2975514BBE</generatorID>
+<ownerDesignName>bdfintech</ownerDesignName>
+<engineerTo>
+<item key="5581AF87-32C6-C079-6931-084E200FECFC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34B7E849-6944-CBE0-9C43-AFE65720DC2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

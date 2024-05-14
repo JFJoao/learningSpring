@@ -113,7 +113,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1E5CD3E0-E2FB-5D2F-D25C-77FE5B98675B"/>
-<colUsage columnID="700DF7CB-91C6-35DB-7EEC-78EE708C44A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="C32934BF-3A17-3432-E3B7-8ED802940FEE" name="t_fitch_metas__idx">

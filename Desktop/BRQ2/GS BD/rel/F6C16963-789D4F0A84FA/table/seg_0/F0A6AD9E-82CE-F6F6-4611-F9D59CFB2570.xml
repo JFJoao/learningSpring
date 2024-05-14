@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0A6AD9E-82CE-F6F6-4611-F9D59CFB2570" name="VEICULOS">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>F38886B5-0F7E-1A78-B465-FAFDD7D30F2C</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<ordsAlias>t_gbl_cultivos</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_veiculo" id="1B67A1A3-AEA5-47A2-2449-DFC6D63891F6">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>C69E931F-70C1-2FED-5397-49E862984F6C</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa" id="0AF79DB4-5ACE-3D84-11AC-EB04BE373DD2">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>2948CD4A-B231-3B6C-6D0A-8DF079D8E69D</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B63C4BB1-5D61-5553-D0A9-070CBA574766" referredColumn="71C57664-0833-2335-AFDF-8E8D538BFD89"/>
+</associations>
+</Column>
+<Column name="categoria" id="A0BA2EE0-6BAB-BB40-9A42-4949A47FF8AB">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>50A0C68C-0308-F81C-ADFB-19AC10331D70</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="5CAD4DB0-47FE-B9FB-9AFA-1935DC434B7F">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>A4CDFFEA-48A1-7680-1589-6A9712300C16</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="06998A97-36A5-84DC-9871-CB7293A3767C">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>1205BD92-DEAE-68E5-5429-E57887AD2B91</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cor" id="6073803E-A739-609B-C5B1-971C72D5CD0F">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>8ED7BC21-B35C-C6B1-3318-8599725F2096</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc" id="562FF37D-36AD-E171-3C94-43993EF318E3">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>0768FADA-7D54-0E54-8957-F1DA624F4CE9</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="961D8A6B-367E-0C56-24BC-C049C5BB0028" name="VEICULO_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>377CF4D8-3428-0294-3B91-FC908A29A9D8</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B67A1A3-AEA5-47A2-2449-DFC6D63891F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE4DC881-536A-D088-F4FE-A96B5B95ABEF" name="LOCADORA_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>0A44DEB6-BFC8-5A62-AB36-8795B6DDCCEB</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AF79DB4-5ACE-3D84-11AC-EB04BE373DD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E413F7B-18A4-B23E-1D2D-2F7F1933E3D5" name="CIDADE">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>0338ED5F-83C0-EAEA-CEC4-9B876BA24974</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_cidade" id="5692E55F-A78D-1EF1-891F-4171D1344B5F">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:17:31 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO_cod_bairro" id="4E9192E1-B35D-924C-E731-6D1E8B88D2B2">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>5DA7FB0C-A64A-A61C-2582-65F227C20B9B</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2D111CC-2237-EA8B-83FE-28C05281278E" referredColumn="B48294AC-6811-B024-2C4C-DE4F6DCA3228"/>
+</associations>
+</Column>
+<Column name="ESTADO_cod_estado" id="38DACCA1-7A20-B335-8787-DDE836F05C0B">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>52373455-41BA-BC59-17CA-0AB44C6F3D8C</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED1CB76A-90D4-C618-F656-D04AC1EB3D97" referredColumn="4EAD5C4D-F50A-F138-485B-EDFD27DCA17E"/>
+</associations>
+</Column>
+<Column name="nome_cidade" id="39B78FBE-6996-14A6-A764-252A456A04FD">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>7C4E0296-C058-329C-E1A9-7F498C67126C</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>150</dataTypePrecision>
+<ownDataTypeParameters>,150,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC536DE3-42BD-9711-8F9D-2B5B60B5BBA3" name="CIDADE_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>3A11A9CA-9F16-FE9E-A141-406FC5843951</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="FC8F190D-149C-B5D1-2D07-F8BF308409F3" name="CIDADE">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FAECAED6-1C94-A873-66C6-E11379289E7B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4E9192E1-B35D-924C-E731-6D1E8B88D2B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A89F7BCA-85BD-DE86-7782-6FA315476E17" name="CIDADE_BAIRRO_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>FAECAED6-1C94-A873-66C6-E11379289E7B</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E9192E1-B35D-924C-E731-6D1E8B88D2B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E36B7A8-D01B-7AF0-3D7F-EB5935B10405" name="CIDADE_ESTADO_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>C9E7C13F-3209-BE17-C49A-25AF9159C84D</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38DACCA1-7A20-B335-8787-DDE836F05C0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

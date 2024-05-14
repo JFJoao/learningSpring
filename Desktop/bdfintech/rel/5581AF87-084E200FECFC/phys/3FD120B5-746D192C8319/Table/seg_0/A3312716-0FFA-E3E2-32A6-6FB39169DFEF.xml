@@ -24,17 +24,17 @@
 <createdTime>2023-10-16 16:04:12 UTC</createdTime>
 <ownerDesignName>bdfintech</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="cod_cliente" id="8DF7A13B-92C5-A72F-8794-26E21B9406AA">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 22:25:07 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="t_fitch_tipo_logradouro_cod_logradouro" id="E921FE9E-FEE8-832C-8B62-A6FF71D64808">
 <createdBy>João Felipe</createdBy>
 <createdTime>2023-10-16 16:04:12 UTC</createdTime>
 <ownerDesignName>bdfintech</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="t_ftch_cliente_cod_cliente" id="EEC4D969-83DE-F932-DD50-80CCC50CECD5">
-<createdBy>João Felipe</createdBy>
-<createdTime>2023-10-16 16:04:12 UTC</createdTime>
-<ownerDesignName>bdfintech</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="cod_cliente" id="FCCC520D-58FD-6661-3414-6D1E4C172076">
 <createdBy>João Felipe</createdBy>
 <createdTime>2023-10-16 16:04:12 UTC</createdTime>
 <ownerDesignName>bdfintech</ownerDesignName>

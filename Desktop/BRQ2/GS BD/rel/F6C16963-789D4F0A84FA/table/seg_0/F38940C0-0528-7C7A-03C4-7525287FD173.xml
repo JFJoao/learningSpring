@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F38940C0-0528-7C7A-03C4-7525287FD173" name="SISTEMA">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>DAF09C7E-4645-C8D5-C3BB-351A7CBDDB7B</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_id_user" id="8D0A3B20-520A-CEC5-CC13-16B17ECBCE0C">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>C9A681C0-0739-D548-8D97-6778986D9840</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A5409FC-2550-1F07-C7A1-DB97BBD3005E" referredColumn="86ED7A8F-9B44-FB7A-F2CC-55C411B685F8"/>
+</associations>
+</Column>
+<Column name="id_sistema" id="EDAEC05C-8E35-65CC-E632-DC0D49798B49">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>3CD5F0FB-CA2F-1CE0-DC53-7E43BF6B98F7</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="0EA09A26-AE4C-2DCA-FFD3-EEC42872BE76">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>8A41A7B1-76F1-8F6A-349E-EEFB982F0207</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="ADF15D38-D996-5DBC-65BC-0F4AF1912247">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>50ECEADB-06F3-DCCB-9310-B7F52F795178</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="token" id="DE2BDA37-8B34-418A-4E44-2EECD65584D5">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>C6E470B9-A7BB-F9FD-89D3-C0A84DCC232E</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_sistema" id="13262FB6-AF56-87B5-938F-8638CBC9D57C">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>3162FF81-139E-408F-86B6-322F55A5AAEF</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vers_sistema" id="87677C71-BBD2-9D72-B476-09460BCC2140">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>DDCE6B20-5758-29EB-7399-1241C4985694</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYSTEM_ERROS_ID_erro" id="A5EF774B-F409-84A4-2723-F7F43EAB19D8">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-30 23:34:15 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E51F7ACC-4704-CE66-DEC4-D6D8874B2B7D" referredColumn="836AD8B8-A3B1-EF7C-1689-8F906184062C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52F45E76-769A-2B93-296A-76D56EDB3EAE" name="SISTEMA_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>6A45F016-DA4F-E148-8F53-A3424EF14111</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDAEC05C-8E35-65CC-E632-DC0D49798B49"/>
+<colUsage columnID="8D0A3B20-520A-CEC5-CC13-16B17ECBCE0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0599A63C-5FF4-0919-4487-C00670137AF9" name="SISTEMA">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7D701DEA-8F5E-294F-8514-833476FF42DE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8D0A3B20-520A-CEC5-CC13-16B17ECBCE0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="182047E6-98D3-BCD8-FCDD-AE4FCEEB606C" name="SISTEMA_USUARIO_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>7D701DEA-8F5E-294F-8514-833476FF42DE</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D0A3B20-520A-CEC5-CC13-16B17ECBCE0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D504E7E-847D-CD95-F9BC-CE9E16AE3A5D" name="SISTEMA_SYSTEM_ERROS_FK">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-30 23:34:15 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5EF774B-F409-84A4-2723-F7F43EAB19D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

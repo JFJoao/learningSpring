@@ -5,6 +5,7 @@
 <createdTime>2023-10-16 16:04:11 UTC</createdTime>
 <ownerDesignName>bdfintech</ownerDesignName>
 <importedID>A2A1F477-58FD-F276-2021-E22CD8D7919F</importedID>
+<ordsAlias>t_fitch_aplicacoes</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -21,15 +22,13 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cod_cliente" id="A9AA21E9-251B-52A3-0745-5DD5BA0CF8FA">
-<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
+<Column name="cod_cliente" id="CD9048AE-491E-A115-C43F-7741A5D26BE7">
 <createdBy>João Felipe</createdBy>
-<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<createdTime>2023-10-16 22:23:43 UTC</createdTime>
 <ownerDesignName>bdfintech</ownerDesignName>
-<importedID>EBBC5031-A629-EB34-9AD5-E6156BABE5EF</importedID>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>8676C0F2-254C-479A-C907-8E79F491B587</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -98,7 +97,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8840DD9E-8091-34BF-6D58-C2BD59C4314E"/>
-<colUsage columnID="A9AA21E9-251B-52A3-0745-5DD5BA0CF8FA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="FD143734-8908-B49E-0E6D-DEE7B074826E" name="t_fitch_aplicações__idx">

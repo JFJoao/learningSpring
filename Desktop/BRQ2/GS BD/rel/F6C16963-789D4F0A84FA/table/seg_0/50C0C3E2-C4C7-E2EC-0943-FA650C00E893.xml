@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50C0C3E2-C4C7-E2EC-0943-FA650C00E893" name="BAIRRO">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>98E782E2-1C45-186C-56E8-C2387E83AE9E</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_bairro" id="B48294AC-6811-B024-2C4C-DE4F6DCA3228">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>7F891CD5-9174-129C-B7E2-D1D81B710297</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDEREÇO_USUARIO_ENDEREÇO_cep_user" id="9001E5F5-0701-A176-D11E-E8B07AE6D71F">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>33338E82-3BE8-01F3-E0CF-C81DFED2E444</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B47A450-735F-65ED-425E-23A9C6D0D88A" referredColumn="19FFDCFA-0021-4359-FB95-B7416F047B41"/>
+</associations>
+</Column>
+<Column name="nome_bairro" id="95639104-BD99-179D-20E3-13873242D1A8">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>EF1E1BD3-24D4-8C13-15C7-FC4FB25A28A7</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C41C7005-3122-960D-2FE1-126FD5FD7E34" name="BAIRRO_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>733D6F81-3AF9-6007-747C-9DCBB4FA3C03</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B48294AC-6811-B024-2C4C-DE4F6DCA3228"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="208C5CC6-4549-52BC-8DE2-AC128C87A2CB" name="BAIRRO">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D063F895-B688-1639-EFB0-CCED3DA6B8C3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9001E5F5-0701-A176-D11E-E8B07AE6D71F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14E15158-0B8B-957F-1AC1-1D2368C6F671" name="BAIRRO_ENDEREÇO_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>D063F895-B688-1639-EFB0-CCED3DA6B8C3</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9001E5F5-0701-A176-D11E-E8B07AE6D71F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="229C93EB-F4BA-AB8E-F460-C3EDBD89D9F4" containerWithKeyObject="08808DC3-DBC9-9EE4-6612-C7412261466B" localFKIndex="47DC59C3-A450-A10A-6201-9D3DF3FEEF20" name="LOCADORA_NOTA_FISCAL_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>B520058C-0D06-DBF9-710F-5B7CC5148FE8</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<referredTableLongName>NOTA_FISCAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>04B79546-BEDE-9F9A-1D00-FCE4561B0306</referredTableID>
+<keyObject>69BA3D25-6C93-C11D-0D4C-04C119D3AF62</keyObject>
+<referredKeyID>69BA3D25-6C93-C11D-0D4C-04C119D3AF62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nf</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

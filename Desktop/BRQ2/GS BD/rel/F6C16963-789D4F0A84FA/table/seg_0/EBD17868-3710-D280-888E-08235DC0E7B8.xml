@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBD17868-3710-D280-888E-08235DC0E7B8" name="ENDEREÇO">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>909DDE67-876B-E521-A41B-EF6325317604</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<ordsAlias>endereco</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_ENDEREÇO_cep_user" id="19FFDCFA-0021-4359-FB95-B7416F047B41">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>C8DD868F-263F-B2DA-DD68-0174B1D24682</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="515E7A06-442E-3AB0-21CF-6714030C89A3" referredColumn="39F5BB30-80BD-EB54-B364-7A10EE06D1EE"/>
+</associations>
+</Column>
+<Column name="LOGRADOURO_cod_logradouro" id="AB03B57E-5244-CA58-6C97-08EF0072C526">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>D80E45E3-E157-6AAC-E986-9148D77F1363</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C21E8D3-362E-CF4A-C36D-9FBEEF4BD520" referredColumn="195C189E-90F4-1EF8-08AD-F5DB563B2CE4"/>
+</associations>
+</Column>
+<Column name="USUARIO_ENDEREÇO_USUARIO_id_user" id="342FB7CA-8A13-C089-B040-2054DA706C3D">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>675BE69F-5BA8-0A19-8F44-C18C0071A045</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="515E7A06-442E-3AB0-21CF-6714030C89A3" referredColumn="DC78BA66-63B4-54B8-9342-BB980DACCA7E"/>
+</associations>
+</Column>
+<Column name="desc_logradouro" id="2DD2F990-5196-05AE-8AF1-15C5CA919BE8">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>50477C5C-9196-CCA4-03E5-406B41B55AE1</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE8B45F1-E0AE-5F11-05BC-874D29BDD580" name="ENDEREÇO_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>BD249E85-3AA2-6A8F-8D93-625CFD24295A</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19FFDCFA-0021-4359-FB95-B7416F047B41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51FEC5B2-1E94-191A-11EE-A31534859BFD" name="ENDEREÇO">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A9039790-86A0-25EA-DB49-1F51A6BF68BD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AB03B57E-5244-CA58-6C97-08EF0072C526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF8DBB2E-5F2E-877D-BF49-613ED48E1BF8" name="ENDEREÇO_LOGRADOURO_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>A9039790-86A0-25EA-DB49-1F51A6BF68BD</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB03B57E-5244-CA58-6C97-08EF0072C526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8DADA3D-7673-DA32-023C-723707923CC5" name="ENDEREÇOL_USUARIO_ENDEREÇO_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>33BA14D2-7ABD-B0BE-AFD2-A79715DDEBF7</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19FFDCFA-0021-4359-FB95-B7416F047B41"/>
+<colUsage columnID="342FB7CA-8A13-C089-B040-2054DA706C3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

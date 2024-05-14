@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8BD103E-E14F-8A29-0C09-9BCF7160A552" containerWithKeyObject="29B1B1C6-0F0C-0BBE-01E3-E43D890CC64E" localFKIndex="B6B7B430-1B18-3E55-0B91-00216A064B06" name="FAVORECIDO_TRANSAÇÕES_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>B47AE38E-AF8A-A0DC-EA60-7FFC6A3B98CD</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<referredTableLongName>NOTA_FISCAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>04B79546-BEDE-9F9A-1D00-FCE4561B0306</referredTableID>
+<keyObject>69BA3D25-6C93-C11D-0D4C-04C119D3AF62</keyObject>
+<referredKeyID>69BA3D25-6C93-C11D-0D4C-04C119D3AF62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_transações</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

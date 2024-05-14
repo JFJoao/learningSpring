@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B37516A7-4B1C-746C-8991-BF2281B91A82" name="PESSOA">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>A04D5B6B-3071-A12F-A1BF-FDB537B23099</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<ordsAlias>t_gbl_usuario</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_user" id="86ED7A8F-9B44-FB7A-F2CC-55C411B685F8">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>700C4A7C-E1AC-A133-C9AD-F8651DD96776</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONE" id="3DE58245-B19F-F9FC-0546-2B52EC892217">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>71FA1641-AD61-DA5A-B175-17072B333869</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCC3205B-17CD-F7FD-4452-8963C77EB1F6" referredColumn="B829BE22-669A-E648-2696-CB1E71C1A5F4"/>
+</associations>
+</Column>
+<Column name="nome_user" id="641DE712-0798-0429-A25F-57ED8CEEE687">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>80870E4E-C144-8013-47F9-1B0FC2FCBAA4</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_user" id="C234B5C7-4544-264E-02C3-E2FC71FBDB9F">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>86E477DD-89C2-2BA4-C696-4E00E083DEDC</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="70B64D9B-711C-92B9-409D-817A55988E52">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>6FCBAE0D-71A6-8A86-D0F6-F07058F8306A</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nasc" id="A7DAA712-A4CB-572E-B9AD-B33D3B2F6BC9">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>EA29DD38-07B7-223F-771E-730E7CE19E26</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="07EAA177-0889-124C-94DA-AFACA6DB8928">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>C4005C80-5D98-8E8F-C14E-01475F43F7F9</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="056F51AD-0736-1ED1-1DDF-A90843FBE3B6">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>6A2C69CA-631F-F030-9870-EFB671AAD5D1</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUNCIONARIO_id_funcionario" id="6D0678B4-06D7-F1DE-3ABC-9FA895C3DA6B">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-01 19:29:11 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70E5B7B6-0404-C476-4261-E7139F145860" referredColumn="1D2DBAE5-88FA-8817-EC5F-DCCA6E7EF953"/>
+</associations>
+</Column>
+<Column name="USUARIO_id_usuario" id="6FC980F6-FCAA-8E6E-DDF9-23B221777A12">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-01 19:29:51 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70496ABF-E384-AB5D-3E9D-D5616A7DA2BE" referredColumn="FA2FD590-A57A-56E7-B195-5016D7CF6FC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="723016F8-8B44-6F55-889B-691783FFC3F4" name="USUARIO_PKv1">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>97B0A8AD-FC32-C363-129D-2F2363DC84DF</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86ED7A8F-9B44-FB7A-F2CC-55C411B685F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4E65209-1BA1-3AE7-43C1-DD8A17A460CA" name="USUARIO_TELEFONE_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>B7A72FCD-7D30-FEF1-6DC9-691DB943CE2D</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DE58245-B19F-F9FC-0546-2B52EC892217"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8EC996C-1CCB-AD73-8B9F-B36EC9D69191" name="PESSOA_FUNCIONARIO_FK">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-01 19:29:11 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D0678B4-06D7-F1DE-3ABC-9FA895C3DA6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D45C92A5-A03C-B635-A0B3-F3C49E98EAFB" name="PESSOA_USUARIO_FK">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-01 19:29:51 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FC980F6-FCAA-8E6E-DDF9-23B221777A12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

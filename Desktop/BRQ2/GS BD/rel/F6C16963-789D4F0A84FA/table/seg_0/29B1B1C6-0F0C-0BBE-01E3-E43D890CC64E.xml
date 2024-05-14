@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29B1B1C6-0F0C-0BBE-01E3-E43D890CC64E" name="LOCACAO">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>3461EACC-CCE1-CA0D-10D0-EF96D578EE11</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<ordsAlias>favorecido</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ticket" id="FDE0D341-F18E-C97E-3C0A-C5051690C0C5">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>D742334D-4017-7129-F6BA-B985DB016AB7</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1D01E0A-4C47-079A-ECD0-7594BFEBA64C" referredColumn="86ED7A8F-9B44-FB7A-F2CC-55C411B685F8"/>
+</associations>
+</Column>
+<Column name="id_cliente" id="626C2949-8D35-EE4A-0745-E5F91821E1DD">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>BD13118E-AF79-8C29-ACE7-E10C8FB5909A</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio_aluguel" id="B2320367-BDA7-B612-8FE5-537CCC07F0AA">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>8726F8D8-A0DE-B24B-E2E1-A4EC237426B9</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8BD103E-E14F-8A29-0C09-9BCF7160A552" referredColumn="F7DBCBE8-D460-C9E4-AE04-BA862724B349"/>
+</associations>
+</Column>
+<Column name="dt_fim_aluguel" id="153F92A8-4BAD-5648-B9E9-96F89A3F265D">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-26 23:26:45 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlr_ticket" id="FACFBD72-012A-5DED-7201-D61DF14E5C32">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-26 23:26:45 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_motorista" id="C8EFA8E4-D419-1E09-3D25-595AAB2AB9A7">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-26 23:26:45 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_veiculo" id="0275EC7D-55A0-2E0C-CFFC-4784CCDB779C">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-26 23:26:45 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pagamento" id="18D9B382-FCFD-86AE-54F1-F65441915966">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-26 23:26:45 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_nf" id="BF15D486-26A7-3610-4D7B-B41C250BB9EE">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-26 23:26:45 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCADORA_id_locadora" id="B6A65999-3C07-9AF1-F442-FF8697C5AB89">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:06:58 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A15BBA4-7D22-994E-3DEB-8DF16867E82D" referredColumn="71C57664-0833-2335-AFDF-8E8D538BFD89"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30B68FD3-6596-D7A4-425E-79757F7061A0" name="FAVORECIDO_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>014B5AF7-74CA-B134-9508-B1BD485565D4</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="626C2949-8D35-EE4A-0745-E5F91821E1DD"/>
+<colUsage columnID="FDE0D341-F18E-C97E-3C0A-C5051690C0C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D60AFCF1-F96F-1C4B-A0B5-380C2E3C9FE8" name="FAVORECIDO_USUARIO_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>F1B2AE52-8456-33DD-4E2C-600DA843A7D7</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDE0D341-F18E-C97E-3C0A-C5051690C0C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6B7B430-1B18-3E55-0B91-00216A064B06" name="FAVORECIDO_TRANSAÇÕES_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>B47AE38E-AF8A-A0DC-EA60-7FFC6A3B98CD</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2320367-BDA7-B612-8FE5-537CCC07F0AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4639EEB-8FE7-A9D6-C5AE-8964BD15058E" name="LOCACAO_LOCADORA_FK">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:06:58 UTC</createdTime>
+<generatorID>8EA973E7-C59C-91BA-BEBD-0A51395B25CA</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6A65999-3C07-9AF1-F442-FF8697C5AB89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_fitch_renda_var_t_fitch_aplicações_fk" directorySegmentName="seg_0" id="EB85F2D2-19F6-A912-94CE-258A0B56491D">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 19:51:10 UTC</createdTime>
+<generatorID>23782B00-8277-D203-1D0C-9A15905521CB</generatorID>
+<ownerDesignName>bdfintech</ownerDesignName>
+<engineerTo>
+<item key="5581AF87-32C6-C079-6931-084E200FECFC" value="true"/>
+</engineerTo>
+<sourcePk>FF80B2FE-8223-8EA4-A632-65C16030E237</sourcePk>
+<dominantRole>4BA66410-7A37-CB8B-37DE-3947E30DCFDF</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4BA66410-7A37-CB8B-37DE-3947E30DCFDF</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1C00E7CB-C22A-1AA6-B5DA-C1D6468CA416</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

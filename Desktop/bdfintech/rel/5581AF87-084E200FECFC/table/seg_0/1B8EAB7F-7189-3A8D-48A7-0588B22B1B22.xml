@@ -125,8 +125,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="66693427-A1E0-D226-C798-E04C9E4B3C5F"/>
-<colUsage columnID="96CC7896-05F3-B3F6-25A4-F35AE298F650"/>
-<colUsage columnID="A4319175-7B8E-783D-6DA4-AA520B63223A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F571BE09-55C5-BEB1-2973-01AFE154522D" name="t_fitch_despesas__idx">

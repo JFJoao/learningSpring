@@ -116,7 +116,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F91E510E-D492-D131-295F-251A9F2610F0"/>
-<colUsage columnID="E9092D77-C95D-6182-F19F-BA8F799F471C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="C476749D-72FD-BF7E-3980-0F55B6B09BC0" name="t_fitch_financeiro__idx">

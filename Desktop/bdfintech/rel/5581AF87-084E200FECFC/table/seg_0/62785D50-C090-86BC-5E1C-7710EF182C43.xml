@@ -121,9 +121,6 @@
 <domain>8676C0F2-254C-479A-C907-8E79F491B587</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="DD8BF35C-1E82-25DA-A39F-70C3CC390CFF" referredColumn="A9AA21E9-251B-52A3-0745-5DD5BA0CF8FA"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -137,7 +134,6 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D5D8A970-F1CE-4065-3C30-5EBC375AC149"/>
 <colUsage columnID="C926AA3C-3298-99A5-60F4-DA7286C53BE7"/>
 </indexColumnUsage>
 </ind_PK_UK>
@@ -162,7 +158,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="87435E25-8FEE-1903-D8DE-194D4D261E9B"/>
-<colUsage columnID="E30A9C35-3106-7FA6-7F39-3BE76AD60BE8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

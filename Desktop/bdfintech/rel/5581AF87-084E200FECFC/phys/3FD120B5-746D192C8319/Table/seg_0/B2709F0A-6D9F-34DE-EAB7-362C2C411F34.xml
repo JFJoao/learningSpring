@@ -29,14 +29,14 @@
 <createdTime>2023-10-16 16:04:12 UTC</createdTime>
 <ownerDesignName>bdfintech</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="cod_cliente" id="A9AA21E9-251B-52A3-0745-5DD5BA0CF8FA">
+<ColumnProxy name="cod_investimento" id="B07AF5FA-4291-23CE-C578-8FA6A4B362D7">
 <createdBy>João Felipe</createdBy>
 <createdTime>2023-10-16 16:04:12 UTC</createdTime>
 <ownerDesignName>bdfintech</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="cod_investimento" id="B07AF5FA-4291-23CE-C578-8FA6A4B362D7">
+<ColumnProxy name="cod_cliente" id="CD9048AE-491E-A115-C43F-7741A5D26BE7">
 <createdBy>João Felipe</createdBy>
-<createdTime>2023-10-16 16:04:12 UTC</createdTime>
+<createdTime>2023-10-16 22:23:43 UTC</createdTime>
 <ownerDesignName>bdfintech</ownerDesignName>
 </ColumnProxy>
 </columnProxies>

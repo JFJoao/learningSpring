@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B10A934-7D40-E643-EBBD-6BC0E3806F07" name="USUARIO">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-01 19:01:35 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="FA2FD590-A57A-56E7-B195-5016D7CF6FC1">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-01 19:14:17 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="19C23B1A-50C6-223C-E61E-8B97734A6E4F">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-01 19:14:17 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="locatario" id="38C9E980-93C5-3141-FD82-1146B8E7C756">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-01 19:14:17 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ultimo_login" id="15FB6BA8-8977-6378-60A1-DD2143AA3767">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-01 19:14:17 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6171DA15-1C97-59BB-0347-882619950C09" name="USUARIO_PK">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-01 19:14:17 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA2FD590-A57A-56E7-B195-5016D7CF6FC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

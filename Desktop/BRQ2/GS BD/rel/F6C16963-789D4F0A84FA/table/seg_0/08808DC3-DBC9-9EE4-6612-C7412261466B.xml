@@ -1,0 +1,230 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08808DC3-DBC9-9EE4-6612-C7412261466B" name="LOCADORA">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>301D718A-1050-037F-A1C6-66391F6971C3</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<ordsAlias>t_gbl_fornecedor</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_locadora" id="71C57664-0833-2335-AFDF-8E8D538BFD89">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>546F448F-BFC9-8AAE-834A-CE1AD0918C22</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E12B5B3-5E9F-ADD4-CACA-70AE04D3AAED" referredColumn="86ED7A8F-9B44-FB7A-F2CC-55C411B685F8"/>
+</associations>
+</Column>
+<Column name="nome_locadora" id="139DF24A-7ECC-7498-5268-A6E7FD48D33B">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:02:01 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tel" id="7318B328-DBDE-50A6-D7B0-38105BF9E49A">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>4DE32056-AF2F-4322-8EEF-A163D31A1F0C</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="229C93EB-F4BA-AB8E-F460-C3EDBD89D9F4" referredColumn="F7DBCBE8-D460-C9E4-AE04-BA862724B349"/>
+</associations>
+</Column>
+<Column name="endereco" id="00DB5968-F6AD-15F2-D375-5F8F827D28D0">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>49E88991-9FBD-4649-322D-E68CBFDCCB65</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="C826FE14-206D-4440-BBE6-A3FE9E81E6B4">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>91A7654D-21E6-B27D-3461-0FE60C639B5E</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="6EFE6456-D78F-959A-47B9-5B82B0C86A5A">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 22:48:07 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="9E2578EA-6A4E-352E-B80B-0AAB4C7F3961">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:02:01 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url" id="E077D58F-56AC-6F37-2DBF-8FD601375ED6">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:02:01 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fundacao" id="936A035F-9D81-D914-4620-215735CAE9FD">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:02:01 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_veiculos" id="27FFAFB6-F30A-502C-5D27-EEA0A9A5C96A">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:02:01 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc" id="89A7CDB3-56F6-FE83-D8EA-213AA5E7AA1F">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:02:01 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SISTEMA_id_sistema" id="6D676179-5D27-498B-7A1F-D0ADC4098219">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:13:00 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07DD9E51-9C88-0C69-E1EA-913DC1067ACC" referredColumn="EDAEC05C-8E35-65CC-E632-DC0D49798B49"/>
+</associations>
+</Column>
+<Column name="SISTEMA_USUARIO_id_user" id="06D1710A-C7F7-DC88-4C91-DD86871E6C05">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:13:00 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07DD9E51-9C88-0C69-E1EA-913DC1067ACC" referredColumn="8D0A3B20-520A-CEC5-CC13-16B17ECBCE0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D67B52B-C3BB-D7D8-9544-80CFF2B7767D" name="LOCADORA_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>8EA973E7-C59C-91BA-BEBD-0A51395B25CA</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71C57664-0833-2335-AFDF-8E8D538BFD89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFF08C48-4CBD-1B44-F3EC-779B0AC2D82F" name="LOCADORA_USUARIO_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>E1C6B27F-D2AB-365F-A94B-544D29CAE655</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71C57664-0833-2335-AFDF-8E8D538BFD89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47DC59C3-A450-A10A-6201-9D3DF3FEEF20" name="LOCADORA_NOTA_FISCAL_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2023-06-02 19:36:39 UTC</createdTime>
+<generatorID>B520058C-0D06-DBF9-710F-5B7CC5148FE8</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7318B328-DBDE-50A6-D7B0-38105BF9E49A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE6BF2B2-463A-4284-D63A-824C451EDE40" name="LOCADORA_SISTEMA_FK">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:13:00 UTC</createdTime>
+<generatorID>6A45F016-DA4F-E148-8F53-A3424EF14111</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D676179-5D27-498B-7A1F-D0ADC4098219"/>
+<colUsage columnID="06D1710A-C7F7-DC88-4C91-DD86871E6C05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07DD9E51-9C88-0C69-E1EA-913DC1067ACC" containerWithKeyObject="08808DC3-DBC9-9EE4-6612-C7412261466B" localFKIndex="BE6BF2B2-463A-4284-D63A-824C451EDE40" name="LOCADORA_SISTEMA_FK">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-27 23:13:00 UTC</createdTime>
+<generatorID>6A45F016-DA4F-E148-8F53-A3424EF14111</generatorID>
+<ownerDesignName>GS BD</ownerDesignName>
+<referredTableLongName>SISTEMA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F38940C0-0528-7C7A-03C4-7525287FD173</referredTableID>
+<keyObject>52F45E76-769A-2B93-296A-76D56EDB3EAE</keyObject>
+<referredKeyID>52F45E76-769A-2B93-296A-76D56EDB3EAE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sistema,USUARIO_id_user</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

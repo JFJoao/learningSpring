@@ -39,9 +39,11 @@
 <createdTime>2023-10-16 16:04:12 UTC</createdTime>
 <ownerDesignName>bdfintech</ownerDesignName>
 <importedID>B32498BC-8047-6FC4-9742-1EBA1525B4AD</importedID>
-<use>0</use>
-<domain>6864B5A2-689D-596D-74D3-36C9844A8032</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="versao_sistema" id="1F32EABC-C340-9EA9-7DC9-3B1E35FFE567">
@@ -121,7 +123,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8C8CEE7E-3F4E-2842-1952-0C2F947D3FC3"/>
-<colUsage columnID="77B18372-D1BC-09E7-3D84-4AC654A7DFF5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="A8CC76BF-7035-6221-AEED-5F0A4666DCDD" name="t_fitch_sistema__idx">

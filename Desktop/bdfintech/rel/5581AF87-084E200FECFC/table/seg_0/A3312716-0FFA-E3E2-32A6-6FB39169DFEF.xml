@@ -5,6 +5,7 @@
 <createdTime>2023-10-16 16:04:12 UTC</createdTime>
 <ownerDesignName>bdfintech</ownerDesignName>
 <importedID>F9BE9BFB-5F14-12D4-C5F0-752F8B3EE354</importedID>
+<ordsAlias>t_fitch_cliente_endereco</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -18,18 +19,6 @@
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <domain>BAEC8EE7-B784-6CF7-D6DA-527C1304A121</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="cod_cliente" id="FCCC520D-58FD-6661-3414-6D1E4C172076">
-<sourceDDLFile>SCRIPT DDL FINTECH.ddl</sourceDDLFile>
-<createdBy>João Felipe</createdBy>
-<createdTime>2023-10-16 16:04:12 UTC</createdTime>
-<ownerDesignName>bdfintech</ownerDesignName>
-<importedID>1A2CFD99-66B9-15B8-9ECB-5F5C4A7EE4DA</importedID>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>8676C0F2-254C-479A-C907-8E79F491B587</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -88,6 +77,17 @@
 <colAssociation fkAssociation="14F19A03-C7B8-DCC9-D616-42AE3CD6C5F4" referredColumn="B040D795-D853-6008-C375-3182C651F160"/>
 </associations>
 </Column>
+<Column name="cod_cliente" id="8DF7A13B-92C5-A72F-8794-26E21B9406AA">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-10-16 22:25:07 UTC</createdTime>
+<ownerDesignName>bdfintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1C9491F6-5191-3AAB-9AE0-ECEDFBA02EB4" name="t_fitch_cliente_endereço_pk">
@@ -101,8 +101,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="89698421-2EBF-110D-5132-A441D24BF817"/>
-<colUsage columnID="FCCC520D-58FD-6661-3414-6D1E4C172076"/>
-<colUsage columnID="014C238D-5BD1-2D93-3D7A-B6AC13F61B44"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="7C88A625-05DC-3728-6BC2-8603C183B306" name="t_fitch_cliente_endereço_t_fitch_tipo_logradouro_fk">

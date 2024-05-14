@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46585465-A514-F37B-CF8B-22A09E56BE16" name="SYSTEM_ERROS">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-30 23:29:43 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_erro" id="836AD8B8-A3B1-EF7C-1689-8F906184062C">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-30 23:32:57 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time_stamp" id="26C04D02-3BB8-1CC8-F554-359D578B6C9E">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-30 23:32:57 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="476D31E9-460E-91F9-33E4-FC2B011E601D">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-30 23:32:57 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mensagem" id="2DEB95B4-7A46-88FC-F35A-74027682F799">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-30 23:32:57 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="origem" id="4B7E8252-5A1A-5E06-EF08-6E931411C3F9">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-30 23:32:57 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc" id="A4225CB9-19E3-220D-EEAF-6BBD5D28E58B">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-30 23:32:57 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A59F44B-CF46-CD65-5AAA-1237A6EBF027" name="SYSTEM_ERROS_PK">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-30 23:34:05 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="836AD8B8-A3B1-EF7C-1689-8F906184062C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

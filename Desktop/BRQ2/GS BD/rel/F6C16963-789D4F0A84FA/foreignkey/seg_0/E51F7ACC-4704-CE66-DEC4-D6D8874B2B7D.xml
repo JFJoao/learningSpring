@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E51F7ACC-4704-CE66-DEC4-D6D8874B2B7D" containerWithKeyObject="F38940C0-0528-7C7A-03C4-7525287FD173" localFKIndex="3D504E7E-847D-CD95-F9BC-CE9E16AE3A5D" name="SISTEMA_SYSTEM_ERROS_FK">
+<createdBy>João Felipe</createdBy>
+<createdTime>2023-09-30 23:34:15 UTC</createdTime>
+<ownerDesignName>GS BD</ownerDesignName>
+<referredTableLongName>SYSTEM_ERROS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>46585465-A514-F37B-CF8B-22A09E56BE16</referredTableID>
+<keyObject>6A59F44B-CF46-CD65-5AAA-1237A6EBF027</keyObject>
+<referredKeyID>6A59F44B-CF46-CD65-5AAA-1237A6EBF027</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_erro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
